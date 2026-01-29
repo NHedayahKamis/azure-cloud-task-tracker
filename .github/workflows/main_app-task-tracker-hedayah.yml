@@ -71,6 +71,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'app-task-tracker-hedayah'
+          app-name: 'cloud-task-tracker'
           slot-name: 'Production'
+
           
